@@ -1,12 +1,13 @@
-import './App.css';
-import Airplanes from './components/airplanes/Airplanes';
+import Airplanes from "./Airplanes";
+import "./App.css";
 
 function App() {
   return (
-    <div >
-       <h1 className='text-3xl font-bold text-center' >WElCome</h1>
-       <Airplanes />
-    </div>
+    <>
+      <h1 className="text-3xl font-bold text-center">WElCome</h1>
+
+      <Airplanes />
+    </>
   );
 }
 
