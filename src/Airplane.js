@@ -2,15 +2,14 @@ import React from 'react'
 
 export default function Airplane(props) {
 
- const { name, established, logo, slogan, website } = props.biman;
+ const { image, title, price, description } = props.biman;
   return (
     <>
-      <div>
-        <img src={logo} alt="airways logo" />
-        <h1> Name:{name} </h1>
-        <p>{slogan}</p>
-        <p>{established}</p>
-        <p>Website- {website}</p>
+      <div className='h-[450px] w-[450px]'>
+        <img className='h-[3rem] w-[5rem]' src={image} alt="airways logo" />
+        <h1> Name:{title} </h1>
+        <p>{description}</p>
+        <p>{price}</p>
       </div>
     </>
   );
