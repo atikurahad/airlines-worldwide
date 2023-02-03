@@ -14,7 +14,7 @@ const Airplanes = () => {
       <h1 className="text-blue-400">I am here</h1>
       <h1>Length:{products.length}</h1>
 
-      <div>
+      <div className=" grid grid-cols-3">
         {products.map((biman) => (
           <Airplane biman={biman} key={biman.id} />
         ))}
