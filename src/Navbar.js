@@ -2,10 +2,38 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className="bg-[#538b0aab]">
+    <div className="bg-[#000000]">
       <div className="navbar ">
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl" href='/'>SODAI</a>
+          <a
+            className="btn btn-ghost normal-case text-2xl text-red-500"
+            href="/"
+          >
+            SODAIWALA
+          </a>
+          <div className="text-xl font-bold flex  sm:flex-row">
+            <a
+              className="hover:text-blue-300 mx-[1rem] "
+              href="/"
+            >
+              {" "}
+              Home
+            </a>
+            <a
+              className="hover:text-blue-300 mx-[1rem]"
+              href="/"
+            >
+              {" "}
+              About
+            </a>
+            <a
+              className="hover:text-blue-300 mx-[1rem]"
+              href="/"
+            >
+              {" "}
+              Contact
+            </a>
+          </div>
         </div>
         <div className="flex-none gap-2">
           <div className="form-control">

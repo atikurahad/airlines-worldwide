@@ -10,10 +10,10 @@ const Services = () => {
             src="farmer.png"
             alt="banner"
           />
-          <p className="text-4xl font-serif font-bold text-center my-auto mx-auto p-5">
+          <p className="text-4xl text-[ #EBEBEB] font-serif font-bold text-center my-auto mx-auto p-5">
             Check Our All Products. And Get A chance To Win{" "}
             <span className="text-6xl text-rose-500">15% Flat </span> off <br />
-            <button className="bg-white mt-5 p-2 border border-rose-500 text-black hover:bg-black hover:text-[gold] rounded-full ">
+            <button className="bg-white mt-5 p-3 border border-rose-500 text-black hover:bg-rose-500 hover:text-[white] hover:font-mono rounded-full ">
               Grab Your Offer
             </button>
           </p>
