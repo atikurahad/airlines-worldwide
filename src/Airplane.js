@@ -10,7 +10,7 @@ export default function Airplane(props) {
           <img className="h-[17rem] w-[fill] p-2 " src={image} alt="Shoes" />
         </figure>
         <div className="card-body text-white hover:text-yellow-400">
-          <h2 className="card-title">{title}</h2>
+          <h2 className="card-title text-fuchsia-500	">{title}</h2>
           <p>{description}</p>
           <div className="card-actions justify-end">
             <button className="btn btn-primary">BUY NOW ${price}</button>
@@ -18,12 +18,7 @@ export default function Airplane(props) {
         </div>
       </div>
 
-      {/* <div className="border-solid border-2 border-sky-500  rounded-lg	h-[25rem] w-[20rem]	grid justify-items-center	bg-dark">
-        <img className="h-[15rem] w-[12rem] p-2" src={image} alt="airways logo" />
-        <h1 className='text-center'> Name:{title} </h1>
-        <p>{description}</p>
-        <p className="m-2 p-2 text-2xl">Price : ${price}</p>
-      </div> */}
+
     </>
   );
 }
